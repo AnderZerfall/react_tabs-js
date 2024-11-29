@@ -26,7 +26,7 @@ export const App = () => {
       <Tabs
         tabs={tabs}
         selectedTabId={activeTabId}
-        onTabSelected={id => setActiveTab(id)}
+        onTabSelected={setActiveTab}
       />
     </div>
   );
